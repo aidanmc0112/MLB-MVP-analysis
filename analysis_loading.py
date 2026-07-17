@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 def load_data():
-  path = r"C:\Users\aidan\Downloads\lahmans_project\data\lahman_1871-2025_csv"
+  path = r""
   
   batting = pd.read_csv(path + r"\Batting.csv")
   people = pd.read_csv(path + r"\People.csv")
