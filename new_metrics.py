@@ -70,3 +70,8 @@ fielding["ErrorRate"] = (
     fielding["E"] /
     fielding["Chances"]
 )
+primary_pos = (
+    fielding.sort_values("InnOuts", ascending=False)
+    .drop_duplicates(["playerID", "yearID"])
+    [["playerID", "yearID", "POS"]]
+)
