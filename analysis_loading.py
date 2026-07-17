@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from sklearn.ensemble import RandomForestRegressor
 
 path = r"C:\Users\aidan\Downloads\lahmans_project\data\lahman_1871-2025_csv"
 
